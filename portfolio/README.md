@@ -5,6 +5,8 @@
 3. In vs code, open intergrated terminal and create react app by giving this command npx create-reat-app and a file name.
 4. Install necessary dependencies, in this case bootstrap and react router
 5. Run the app to see if its running by typing npm start. You should see the react logo rotating on localhost:3000
-.
+
 ## Building the App
+6. Made components folder in src folder and inside it other folders. Tried pushing empty folders up to github so my base was set up but apparently they were not getting pushed up.Guess what Panic panic panic....but then with a little bit of google foo, found outh this. 
+"Git doesn't like empty folders. It doesn't include them in commits and it certainly doesn't include an empty directory when you push to GitHub or GitLab."
 
