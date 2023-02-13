@@ -1,0 +1,18 @@
+:root {
+    --mainGray: #d5d5d5;
+    --darkPurple: #4d0a77;
+    --orage: #eda653;
+    --lightPurple: #6a179d73;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+* {
+    font-family:sans-serif, calibri;
+    box-sizing: content-box;
+}
+
+body {
+background-color: rgb(26, 2, 96)
+
+}
