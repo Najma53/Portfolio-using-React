@@ -2,56 +2,49 @@ import React from "react";
 import "./style.css";
 import { NavLink } from "react-router-dom";
 
-
 function Header() {
     return (
-<ul className="nav nav-tabs navbar navbar-expand-lg navbar-light bg-light">
-      <li className="nav-item">
+<nav>
+  <div>
+        <ul className="navbar-nav">
+          <li className="nav-item">
             <NavLink
-                to="/"
-                end
-                className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-                }
-        >        Home
+              to="/"
+              end
+              className={({ isActive }) =>
+                isActive ? 'nav-link active' : 'nav-link'
+              }
+            >
+              Home
             </NavLink>
-        </li>
-
-
-      <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <NavLink
-                to="about"
-                className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-                }
-        >       About
+              to="/discover"
+              className={({ isActive }) =>
+                isActive ? 'nav-link active' : 'nav-link'
+              }
+            >
+              Gallery
             </NavLink>
-      </li>
-
-      <li className="nav-item">
+          </li>
+          <li className="nav-item">
             <NavLink
-                to="gallery"
-                className={({ isActive }) =>
-                 isActive ? "nav-link active" : "nav-link"
-          }
-        >        Gallery
+              to="/search"
+              className={({ isActive }) =>
+                isActive ? 'nav-link active' : 'nav-link'
+              }
+            >
+              Contact
             </NavLink>
-      </li>
+          </li>
+        </ul>
+      </div>
+</nav>
+  );
+}
 
-      <li className="nav-item">
-            <NavLink
-                to="contact"
-                end
-                className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-            }
-        >   Contact
-            </NavLink>
-      </li>
-    </ul>
 
-    );
 
-    }
 
 export default Header;

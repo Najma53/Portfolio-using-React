@@ -1,0 +1,32 @@
+
+/* .container {
+    display: flex;
+    align-items: center;
+    
+  } */
+
+  body{
+    background-color: rgb(2, 2, 69);
+  }
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+* {
+    font-family:sans-serif, calibri;
+    box-sizing: content-box;
+    color: rgb(255, 85, 0);
+   font-style: italic;
+}
+.jumbotron {
+  background-color: rgb(2, 2, 69);;
+  color: blue;
+  
+}
+.col-2 {
+  justify-content: left;
+}
+
+.col-5{
+  text-align: center;
+  
+ 
+}

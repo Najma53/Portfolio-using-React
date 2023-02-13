@@ -13,4 +13,7 @@ This portfolio is created from scratch using React. It will contain my projects 
 6. Made components folder in src folder and inside it other folders. Tried pushing empty folders up to github so my base was set up but apparently they were not getting pushed up.Guess what Panic panic panic....but then with a little bit of google foo, found outh this. 
 "Git doesn't like empty folders. It doesn't include them in commits and it certainly doesn't include an empty directory when you push to GitHub or GitLab."
 7. created js and css files in each of the folders inside components folder.
+8. wrote Header function but when starting on local host, was getting this error
+Module not found: Error: Can't resolve './components/Header' .
+Had to rename header.js to index.js
 

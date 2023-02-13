@@ -1,8 +1,8 @@
 :root {
-    --mainGray: #d5d5d5;
-    --darkPurple: #4d0a77;
+    --mainGray: #f00909;
+    --darkPurple: #040632;
     --orage: #eda653;
-    --lightPurple: #6a179d73;
+    --lightPurple: #390de973;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
@@ -10,9 +10,18 @@
 * {
     font-family:sans-serif, calibri;
     box-sizing: content-box;
-}
+    color: rgb(168, 14, 6); 
+   /* font-style: italic; */
+    }
 
 body {
-background-color: rgb(26, 2, 96)
+background-color:rgb(13, 13, 58);
 
 }
+
+/* .navbar-nav{
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-around;
+   font-size: 30px;
+} */
