@@ -16,4 +16,6 @@ This portfolio is created from scratch using React. It will contain my projects 
 8. wrote Header function but when starting on local host, was getting this error
 Module not found: Error: Can't resolve './components/Header' .
 Had to rename header.js to index.js
+9. Header folder working but not displaying nav bar horizontally. 
+10. Home folder-tried loading my image, a worst nightmare. Noone tells you this that you cant just use <img scr=""> but you need to use this <img src={require('/images/image-name.png')} /> For more read please [click](https://stackoverflow.com/questions/34582405/react-wont-load-local-images)
 
