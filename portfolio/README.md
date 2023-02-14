@@ -19,3 +19,4 @@ Had to rename header.js to index.js
 9. Header folder working but not displaying nav bar horizontally. 
 10. Home folder-tried loading my image, a worst nightmare. Noone tells you this that you cant just use <img scr=""> but you need to use this <img src={require('/images/image-name.png')} /> For more read please [click](https://stackoverflow.com/questions/34582405/react-wont-load-local-images) I am not sure yet as to how it will look once deployed because that link is for your machine, hopefully should be okay as folders wont change but need to keep an eye on it and find out beforehand before I land into anymore mess.
 My css ia acting up, sometimes its there sometimes it dissapears...not sure why. Till now this is what my project looks like [demo](../portfolio/src/components/Images/illustration1.png)
+My css decided to kick in and still at this stage, this is what it looks in color [demo](../portfolio/src/components/Images/illustration%202.png)
