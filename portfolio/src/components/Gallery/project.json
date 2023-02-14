@@ -1,0 +1,59 @@
+
+[
+    {
+        "id": 0,
+        "title": "Random Film Picker",
+        "description": "This application provides a convenient and efficient way for movie enthusiasts to discover new films. ",
+        "deployedLink":"https://guilhermederetti.github.io/Random-Film-Picker/",
+        "gitHubLink":"https://github.com/GuilhermeDeretti/Random-Film-Picker",
+        "image": "../Images/random film picker.png"
+    },
+
+    {
+        "id": 1,
+        "title": "Matreological Dashboard",
+        "description": "Mateorological Dashboard displays weather data for a city searched by the user.",
+        "deployedLink":" https://najma53.github.io/Meteorological-Dashboard-/",
+        "gitHubLink":"https://github.com/Najma53/Meteorological-Dashboard-",
+        "image": "../Images/weather.png"
+
+    },
+
+    {
+        "id": 2,
+        "title": "Daily Work Day Planner",
+        "description": "A simple calendar application that allows a user to save events for each hour of the day",
+        "deployedLink":"https://najma53.github.io/Daily-Work-Day-Planner",
+        "gitHubLink":"https://github.com/Najma53/Daily-Work-Day-Planner",
+        "image": "../Images/Work Day Daily Planner.png"
+    },
+
+    {
+        "id": 3,
+        "title": "Team Profile Generator Using CLI",
+        "description": "It is a command line application that takes user input based on questions provided and then generates an HTML webpage that displays the entire team.",
+        "deployedLink":"https://github.com/Najma53/Team-Profile-Generator-Using-CLI" ,
+        "gitHubLink":"https://github.com/Najma53/Team-Profile-Generator-Using-CLI" ,
+        "image": "../Images/team generator.png"
+
+    },
+
+    {
+        "id": 4,
+        "title": "ReadMe Generator Using CLI",
+        "description": "This application is a command line application that takes user input based on questions provided and then generates README.md file that display all the information required for the project.",
+        "deployedLink":"https://github.com/Najma53/README-Generator-using-CLI/blob/main/README.md" ,
+        "gitHubLink":"https://github.com/Najma53/README-Generator-using-CLI" ,
+        "image": "../Images/ReadMe(1).png"
+    },
+
+    {
+        "id": 5,
+        "title": "Password Generator Using User Input",
+        "description": "A password generator based on user choice of input",
+        "deployedLink":"https://najma53.github.io/Password-Generator-Using-User-Input" ,
+        "gitHubLink":"https://github.com/Najma53/Password-Generator-Using-User-Input" ,
+        "image": "../Images/Passwordgenerator.png"
+    }
+
+]
