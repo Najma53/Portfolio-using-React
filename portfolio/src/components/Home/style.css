@@ -8,11 +8,11 @@
   body{
     background-color: rgb(2, 2, 69);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: bisque;
+    color:palevioletred !important;
   }
     
 .jumbotron {
-  background-color:rgb(2, 2, 69);
+  background-color:rgb(2, 2, 69) !important;
 }
 .col-4{
   padding-top: 70px;

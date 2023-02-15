@@ -1,7 +1,17 @@
 .btn-secondary{
     padding-block: 3px;
     margin-inline-end: 5px;
+    color: rgb(2, 2, 69) !important;
+    background-color: lightpink !important;
 }
 .cardContainer {
     margin-top: 20px;
+}
+a:hover {
+    background-color: rgb(118, 0, 75);
+  }
+
+.btn-secondary:hover {
+    color:silver !important;
+    background-color: rgb(118, 0, 75) !important;
 }
