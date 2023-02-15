@@ -5,21 +5,17 @@
     --lightPurple: #390de973; 
  } */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
-* {
-    font-family:sans-serif, calibri;
-    box-sizing: content-box;
-    color: rgb(168, 14, 6); 
-   /* font-style: italic; */
-    }
 
 body {
-background-color:rgb(127, 18, 2);
+/* background-color:rgb(9, 20, 83); */
+background-color: rgb(224, 128, 171);
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+color: whitesmoke;
 
 }
-
+.navbar{
+   background-color:peachpuff;
+}
 /* .navbar-nav{
    display: flex; 
    flex-direction: row;

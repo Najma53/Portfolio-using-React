@@ -14,8 +14,8 @@ function Projects(props) {
           <div className="card-body">
             <h5 className="card-title">{props.title}</h5>
             <p className="card-text">{props.description}</p>
-            <a href={props.deployedLink} class="btn btn-primary">View the Project</a>
-            <a href={props.gitHubLink} class="btn btn-primary">View the Git Hub Repository</a>
+            <a href={props.deployedLink} class="btn btn-secondary">View the Project</a>
+            <a href={props.gitHubLink} class="btn btn-secondary">View the Git Hub Repository</a>
           </div>
         </div>
       </div>

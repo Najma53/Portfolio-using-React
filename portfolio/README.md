@@ -4,7 +4,7 @@ This portfolio is created from scratch using React. It will contain my projects 
 ## Getting Started with Create React App
 
 1. Create Repository on Github and clone it to your machine.
-2. Open the repository on your mavhine using code editor, in my case vscode.
+2. Open the repository on your machine using code editor, in my case vscode.
 3. In vs code, open intergrated terminal and create react app by giving this command npx create-reat-app and a file name.
 4. Install necessary dependencies, in this case bootstrap and react router
 5. Run the app to see if its running by typing npm start. You should see the react logo rotating on localhost:3000
@@ -22,4 +22,4 @@ My css ia acting up, sometimes its there sometimes it dissapears...not sure why.
 My css decided to kick in and still at this stage, this is what it looks in color [demo](../portfolio/src/components/Images/illustration%202.png)
 11. Created Project.Json file, that has all the project information you would like to put on your page.
 12. Created card container that will be displayed on the portfolio and it will utilize data from project.json file. I did not work, map function was not rendering and console showing all this errors
-13. With the help of tutor Suresh Kumar, we sorted the gallery to be working. The images folder needed to be inside the public folder and to access it, this command needed to be used img src={process.env.PUBLIC_URL + ur parth or props}
+13. With the help of tutor Suresh Kumar, we sorted the gallery to be working. The images folder needed to be inside the public folder and to access it, this command needed to be used img src={process.env.PUBLIC_URL + ur path or props}

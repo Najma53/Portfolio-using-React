@@ -7,7 +7,7 @@ function Home() {
     <div className="container">
       <div className="row">
 
-        <div className="col-2">
+        <div className="col-4">
           <img src={require('../Images/profilepic.png')}
             alt=" profilepic" >
           </img>
@@ -15,9 +15,8 @@ function Home() {
         </div>
 
         {/* <div className="jumbotron"> */}
-        <div className="col-9 jumbotron">
+        <div className="jumbotron col-7">
           <h1 className="JumboTitle">Hello, I am Najma</h1>
-          <br></br>
           <br></br>
 
           <p className="brand">
