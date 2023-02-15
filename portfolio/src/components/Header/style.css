@@ -2,11 +2,10 @@
     --mainGray: #f00909;
     --darkPurple: #040632;
     --orage: #eda653;
-    --lightPurple: #390de973; */
-/* } */
+    --lightPurple: #390de973; 
+ } */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
-
 * {
     font-family:sans-serif, calibri;
     box-sizing: content-box;
@@ -15,7 +14,7 @@
     }
 
 body {
-background-color:rgb(13, 13, 58);
+background-color:rgb(127, 18, 2);
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 

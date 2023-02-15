@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
     return (
-<nav>
+<nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div>
         <ul className="navbar-nav">
           <li className="nav-item">
@@ -20,7 +20,7 @@ function Header() {
           </li>
           <li className="nav-item">
             <NavLink
-              to="/discover"
+              to="/gallery"
               className={({ isActive }) =>
                 isActive ? 'nav-link active' : 'nav-link'
               }

@@ -21,5 +21,5 @@ Had to rename header.js to index.js
 My css ia acting up, sometimes its there sometimes it dissapears...not sure why. Till now this is what my project looks like [demo](../portfolio/src/components/Images/illustration1.png)
 My css decided to kick in and still at this stage, this is what it looks in color [demo](../portfolio/src/components/Images/illustration%202.png)
 11. Created Project.Json file, that has all the project information you would like to put on your page.
-12. Created card container that will be displayed on the portfolio and it will utilize data from project.json file.
-
+12. Created card container that will be displayed on the portfolio and it will utilize data from project.json file. I did not work, map function was not rendering and console showing all this errors
+13. With the help of tutor Suresh Kumar, we sorted the gallery to be working. The images folder needed to be inside the public folder and to access it, this command needed to be used img src={process.env.PUBLIC_URL + ur parth or props}
