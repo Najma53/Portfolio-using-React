@@ -28,7 +28,7 @@ function Gallery () {
         
       ))}  
       </div>   
-      </div> 
+       </div> 
      
   );
 }
