@@ -16,7 +16,8 @@ function Home() {
 
         {/* <div className="jumbotron"> */}
         <div className="jumbotron col-7">
-          <h1 className="JumboTitle">Hello, I am Najma</h1>
+          <h4 className="JumboTitle">Hello, I am </h4>
+          <h1 className="header__intro">Najma</h1>
           <br></br>
 
           <p className="brand">
