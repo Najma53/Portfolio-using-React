@@ -13,6 +13,7 @@
     
 .jumbotron {
   background-color:rgb(2, 2, 69) !important;
+  /* text-align: left !important; */
 }
 .col-4{
   padding-top: 70px;

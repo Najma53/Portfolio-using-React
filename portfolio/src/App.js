@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
 
 
           </Routes>
