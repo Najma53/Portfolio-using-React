@@ -9,7 +9,7 @@ This portfolio is created from scratch using React. It will contain my projects 
 4. Install necessary dependencies, in this case bootstrap and react router
 5. Run the app to see if its running by typing npm start. You should see the react logo rotating on localhost:3000
 
-## Building the App
+## Creating the App Components
 6. Made components folder in src folder and inside it other folders. Tried pushing empty folders up to github so my base was set up but apparently they were not getting pushed up.Guess what Panic panic panic....but then with a little bit of google foo, found outh this. 
 "Git doesn't like empty folders. It doesn't include them in commits and it certainly doesn't include an empty directory when you push to GitHub or GitLab."
 7. created js and css files in each of the folders inside components folder.
@@ -25,3 +25,8 @@ My css decided to kick in and still at this stage, this is what it looks in colo
 13. With the help of tutor Suresh Kumar, we sorted the gallery to be working. The images folder needed to be inside the public folder and to access it, this command needed to be used img src={process.env.PUBLIC_URL + ur path or props}
 14. Styling was my other problem it will just not show up, did google foo and stackoverflow was saying need to remove cache. Before I could do this, I asked in class and Phil Howley , our instructor, kind of hinted what is needed, hence in my style.css  wherever I have used, you will see "!important" stuck throught it so my styling takes precedence.
 15. Created contact info . All components are rendering and working well.
+16. Created Resume folder and rendered resume on navlink.
+
+## Building the App 
+
+
