@@ -15,10 +15,11 @@ color: whitesmoke;
 }
 .navbar{
    background-color:palevioletred;
-   color: rgb(2, 2, 69);
+   /* color: rgb(2, 2, 69) !important; */
    font-family: cursive !important;
    font-weight: 700;
    font-size: 30px;
+   font-weight: 900;
    
   
 }

@@ -15,3 +15,6 @@ a:hover {
     color:silver !important;
     background-color: rgb(118, 0, 75) !important;
 }
+p {
+    text-align: left !important;
+}
