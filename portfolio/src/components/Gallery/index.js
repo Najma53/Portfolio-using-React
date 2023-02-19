@@ -11,7 +11,7 @@ function Gallery () {
       <div className="col-10">
       <h3>My Work</h3>
       <p>These are the few projects I did when I joined Trilogy bootcamp. The camp was 16 weeks long and
-        I have learnt a lot from it, from someone who could not code to building a REACt APP, pretty impressive.
+        I have learnt a lot from it, from someone who could not code to building a REACT APP, pretty impressive.
       </p>
       </div>
  

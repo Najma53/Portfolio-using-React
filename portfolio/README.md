@@ -30,6 +30,7 @@ My css decided to kick in and still at this stage, this is what it looks in colo
 
 ## Building the App 
 Before we use the build command, we have few formalities to take care off if deployed to github pages.
+
 18. Whatever you had called your app, go there and instal gh pages by giving this command npm install gh-pages --save-dev
 19. Go to your package.json file  add a homepage property that follows this structure: http://{github-username}.github.io/{repo-name}
 20. Then go to script and add this "predeploy": "npm run build",
@@ -41,10 +42,10 @@ Before we use the build command, we have few formalities to take care off if dep
 [Deployed link](https://Najma53.github.io/Portfolio-using-React)
 
 ## Credits
-Guilherme Derreti
-Victor Biscio
-Phil Howley
-Suresh Kumar
+1. Guilherme Derreti
+2. Victor Biscio
+3. Phil Howley
+4. Suresh Kumar
 
 ## Conclusion
 This has been a learning curve for me, there is so much to react and I would love to try it in future. Initially the project look daunting and hard to build but once you understand how its render, it is not so bad, think this may be one of the easy ones. I had trouble rendering the gallery because I had used the code in class assignment without giving a second thought because my navbar was there but infact inside header component the route needed to change, I didnt see that and never thought twice to check. Secondly my css wasn't working and I would love to try this another way without having to put !important everywhere. My bootstrap portfolio and my other projects have helped me a lot to do basic layout. I had tried using card and col-6 but somehow my projects were not coming side by side , I wanted to have two side by side each other, hence decided to restructure my code and have one after the other. Overall this was great fun. 
