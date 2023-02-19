@@ -35,14 +35,14 @@ Before we use the build command, we have few formalities to take care off if dep
 19. Go to your package.json file  add a homepage property that follows this structure: http://{github-username}.github.io/{repo-name}
 20. Then go to script and add this "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-21. run npm build command and your portfolio will be build
+21. npm run deploy command and your portfolio will be build
 
 
 ## Deployement
 [Deployed link](https://Najma53.github.io/Portfolio-using-React)
 
 ## Credits
-1. Guilherme Derreti
+1. Guilherme Deretti
 2. Victor Biscio
 3. Phil Howley
 4. Suresh Kumar
