@@ -26,7 +26,26 @@ My css decided to kick in and still at this stage, this is what it looks in colo
 14. Styling was my other problem it will just not show up, did google foo and stackoverflow was saying need to remove cache. Before I could do this, I asked in class and Phil Howley , our instructor, kind of hinted what is needed, hence in my style.css  wherever I have used, you will see "!important" stuck throught it so my styling takes precedence.
 15. Created contact info . All components are rendering and working well.
 16. Created Resume folder and rendered resume on navlink.
+17. NOTE: I didnt realize giving same className to different components would cause a problem but it did in styling. Even though I was styling one component but if className was same , will go and implement change everywhere. Hence will remember this next time. This has been a learning curve.
 
 ## Building the App 
+Before we use the build command, we have few formalities to take care off if deployed to github pages.
+18. Whatever you had called your app, go there and instal gh pages by giving this command npm install gh-pages --save-dev
+19. Go to your package.json file  add a homepage property that follows this structure: http://{github-username}.github.io/{repo-name}
+20. Then go to script and add this "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+21. run npm build command and your portfolio will be build
 
+
+## Deployement
+[Deployed link](https://Najma53.github.io/Portfolio-using-React)
+
+## Credits
+Guilherme Derreti
+Victor Biscio
+Phil Howley
+Suresh Kumar
+
+## Conclusion
+This has been a learning curve for me, there is so much to react and I would love to try it in future. Initially the project look daunting and hard to build but once you understand how its render, it is not so bad, think this may be one of the easy ones. I had trouble rendering the gallery because I had used the code in class assignment without giving a second thought because my navbar was there but infact inside header component the route needed to change, I didnt see that and never thought twice to check. Secondly my css wasn't working and I would love to try this another way without having to put !important everywhere. My bootstrap portfolio and my other projects have helped me a lot to do basic layout. I had tried using card and col-6 but somehow my projects were not coming side by side , I wanted to have two side by side each other, hence decided to restructure my code and have one after the other. Overall this was great fun. 
 
